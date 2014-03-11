@@ -1,0 +1,313 @@
+﻿
+/* Menu側 */
+
+a.menu:hover{
+	font-size:15pt;
+	font-weight:bold;
+	color:#0000FF
+}
+
+div{
+	font-size:12pt;
+	width:160;
+	text-align:left;
+}
+
+div.link{
+	margin-top:5px;
+	margin-bottom:10px;
+	color:#308000
+}
+
+div.menutitle{
+	margin-top:15px;
+	font-size:15pt;
+	text-align:center;
+	font-weight:bold;
+	background-color:#99C0E0;
+	color:#206000
+}
+
+div.advertisementtitle{
+	margin-top:15px;
+	font-size:15pt;
+	text-align:center;
+	font-weight:bold;
+	background-color:#99C0E0;
+	color:#206000
+}
+
+strike{
+	color:#800000
+}
+
+
+/* Mainページ側 */
+
+a.tit{
+	margin-top:15px;
+	font-weight:bold;
+}
+
+div.subtit1{
+	margin-top:15px;
+	font-weight:bold;
+	width:100%;
+}
+
+div.subtit2{
+	font-size:9pt;
+	width:100%;
+}
+
+div.title{
+	width:100%;
+	margin-top:15px;
+	font-size:15pt;
+	text-align:center;
+	font-weight:bold;
+	background-color:#ccddff;
+	color:#308000;
+}
+
+div.top{
+	font-size:12pt;
+	/*margin-left:50px; /*マージン(バックＵＰ)*/
+	margin-left:10px;
+	text-align:left;
+	width:100%;
+}
+
+div.copyright{
+	font-size:12pt;
+	margin-top:50px;
+	margin-bottom:25px;
+	text-align:center;
+	width:200px;
+	background-color:#ccccff;
+	color:#004000;
+}
+
+hr.bbs
+{
+	color:#9966cc;
+	height:2px;
+	border-style:solid;
+	margin-left:0px;/* 左寄せ */
+	text-align:left;/* Opera用左寄せ */
+	width:100%;
+}
+/* History用 */
+
+hr.hrhistory
+{
+	color:#6030c0;
+	height:3px;
+	border-style:solid;
+	margin-left:0px;/* 左寄せ */
+	text-align:left;/* Opera用左寄せ */
+	width:500px;
+}
+
+/* BBS用 */
+table.bbs
+{
+	width:100%
+}
+td.bbs1
+{
+	/* padding-left:15px; */
+	width:80px;
+}
+td.bbs2
+{
+	/*width:80%*/
+}
+input.name
+{
+	width:140px;
+}
+input[type="password"].delete_key
+{
+	width:110px;
+}
+input.title
+{
+	width:320px;
+}
+input[type="submit"].submit
+{
+	font-size:12px;
+	margin-top:5px;
+	margin-left:460px;
+	width:80px;
+	height:22px;
+	color:#330066;
+	background-color:#E0E0FF;
+	border:2px;
+	border-style:solid;
+	border-top-color:#663399;
+	border-bottom-color:#330066;
+}
+div.delete_key
+{
+	width:100%;
+	text-align:right;
+}
+input[type="submit"].delete_key
+{
+	font-size:12px;
+	width:40px;
+	height:22px;
+	color:#330066;
+	background-color:#E0E0FF;
+	border:2px;
+	border-style:solid;
+	border-top-color:#663399;
+	border-bottom-color:#330066;
+}
+input[type="submit"].back
+{
+	font-size:12px;
+	margin-top:5px;
+	margin-left:500px;
+	width:60px;
+	height:22px;
+	color:#330066;
+	background-color:#E0E0FF;
+	border:2px;
+	border-style:solid;
+	border-top-color:#663399;
+	border-bottom-color:#330066;
+}
+div.thread
+{
+	background-color:#f8f0ff;
+	padding:5px;
+	border-style: solid;
+	border-width:2px;
+	border-top-color:#804080;
+	border-left-color:#804080;
+	border-right-color:#603060;
+	border-bottom-color:#603060;
+	width:550px;
+}
+div.res
+{
+	margin-left:30px;
+	width:500;
+}
+font.thread_title
+{
+	font-size:18px;
+	font-weight: bold;
+}
+input.res
+{
+	margin-left:410px;
+	font-size:12px;
+	height:22px;
+	width:130px;
+	color:#330066;
+	background-color:#E0E0FF;
+	border:2px;
+	border-style:solid;
+	border-top-color:#663399;
+	border-bottom-color:#330066;
+}
+table.fr_table
+{
+	margin-left:450px;
+	width:120px;
+}
+td.fr_td
+{
+	width:50%;
+}
+
+input.fr
+{
+	font-size:12px;
+	height:22px;
+	width:40px;
+	color:#330066;
+	background-color:#E0E0FF;
+	border:2px;
+	border-style:solid;
+	border-top-color:#663399;
+	border-bottom-color:#330066;
+}
+
+textarea.bbs
+{
+	width: 100%;
+	height: 7em;
+}
+/* 共通 */
+
+a:link
+{
+	color:#000080;
+}
+
+a:visited
+{
+	color:#000080;
+}
+
+body
+{
+	/* background-image:url("img/bgp.jpg"); */
+	/* background-position: 100% 100%; */
+	/* background-repeat:no-repeat; *
+	/* width:1024px; */
+	background-color:#F0F8FF;
+
+}
+
+body.icons
+{
+	/*アイコン一覧の時だけは幅が違うので再定義*/
+	width:210px;
+}
+
+div.menu
+{
+	position:fixed;
+	background-color:#CCDDDD;
+	top:0px;
+	padding:12px;
+	width:190px;
+	height:100%;
+}
+
+div.advertisement
+{
+	position:fixed;
+	background-color:#CCDDDD;
+	top:0px;
+	margin-left:824px;
+	padding:12px;
+	width:190px;
+	height:100%;
+}
+
+div.main
+{
+/*
+	position:fixed;*/
+	top:0px;
+	margin-top:0px;
+	margin-left:230px;
+	width:570px;
+}
+
+div.mybody
+{
+/*
+	position:fixed;
+	text-align:center;
+*/
+	width:1024px;
+}
+
